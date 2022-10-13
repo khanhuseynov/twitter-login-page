@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 100%;
+    min-height: 577px;
+    background-color: aqua;
+
+}
+.login{
+    width: 500px;
+    min-height: 550px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login_h1{
+    color: white;
+}
+.google{
+    width: 250px;
+    min-height: 35px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+}
+.google a{
+    color: black;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apple{
+    width: 250px;
+    min-height: 35px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+}
+.apple a{
+    color: black;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.or a{
+    color: white;
+}
+.or a::after{
+    content: "";
+    display: block;
+    width: 100px;
+    min-height: 0.7px;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    top: 307px;
+    left: 652px;
+}
+.or a::before{
+    content: "";
+    display: block;
+    width: 100px;
+    min-height: 0.7px;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    top: 307px;
+    left: 510px;
+}
+.email{
+    width: 250px;
+    min-height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 17px;
+    background-color: black;
+    text-align: center;
+}
+.next{
+    width: 250px;
+    min-height: 35px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+}
+ .next a{
+    color: black;
+    font-size: 15px;
+ }
+ .forget{
+    width: 250px;
+    min-height: 35px;
+    border:1px solid white;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+ }
+ .forget a{
+    color: white;
+ }

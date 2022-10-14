@@ -52,34 +52,41 @@
     margin-left: 5px;
     font-size: 14px;
 }
+.or_prnt{
+    width: 300px;
+    min-height: 20px;
+    text-align: center;
+}
+.or::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 0.7px;
+    background-color: rgb(213, 213, 213);
+    position: relative;
+    bottom: 8px;
+    left: 20px;
+}
+.or::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 0.7px;
+    background-color: rgb(213, 213, 213);
+    position: relative;
+    bottom: -10px;
+    left: 170px;
+}
 .or a{
     color: white;
 }
-.or a::after{
-    content: "";
-    display: block;
-    width: 100px;
-    min-height: 0.7px;
-    background-color: rgb(130, 130, 130);
-    position: absolute;
-    top: 307px;
-    left: 652px;
-}
-.or a::before{
-    content: "";
-    display: block;
-    width: 100px;
-    min-height: 0.7px;
-    background-color: rgb(130, 130, 130);
-    position: absolute;
-    top: 307px;
-    left: 510px;
-}
+
 .email{
     width: 250px;
     min-height: 50px;
     border-radius: 5px;
     border: 1px solid white;
+    outline: none;
     font-size: 17px;
     background-color: black;
     text-align: center;
@@ -105,3 +112,9 @@
  .forget a{
     color: white;
  }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .login{
+        width: 400px;
+    }
+}
